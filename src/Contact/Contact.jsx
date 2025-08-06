@@ -6,18 +6,36 @@ const Contact = () => {
     <section className="ContactUs" id="contact">
       <div className="form-container">
         <h2>Volunteer Form</h2>
-        <form >
+        <form>
           {/* Full Name */}
           <label htmlFor="fullname">Full Name *</label>
-          <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name" />
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            required
+            placeholder="Enter your full name"
+          />
 
           {/* Email */}
           <label htmlFor="email">Email *</label>
-          <input type="email" id="email" name="email" required placeholder="Enter your email" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
 
           {/* Phone Number */}
           <label htmlFor="phone">Phone Number *</label>
-          <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number" />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+            placeholder="Enter your phone number"
+          />
 
           {/* Area of Interest */}
           <label htmlFor="interest">Area of Interest *</label>
@@ -33,15 +51,29 @@ const Contact = () => {
 
           {/* Location */}
           <label htmlFor="location">Your Location *</label>
-          <input type="text" id="location" name="location" required placeholder="Enter your city or area" />
+          <input
+            type="text"
+            id="location"
+            name="location"
+            required
+            placeholder="Enter your city or area"
+          />
 
           {/* Motivation */}
-          <label htmlFor="motivation">Why do you want to volunteer with us?</label>
-          <textarea id="motivation" name="motivation" rows="4" placeholder="Write a short answer..." />
+          <label htmlFor="motivation">
+            Why do you want to volunteer with us?
+          </label>
+          <textarea
+            id="motivation"
+            name="motivation"
+            rows="4"
+            placeholder="Write a short answer..."
+          />
 
           {/* Agreement Checkbox */}
           <label className="checkbox-label ">
-            <input type="checkbox" required /> I agree to be contacted by Planet Heros Foundation.
+            <input type="checkbox" required /> I agree to be contacted by Planet
+            Heros Foundation.
           </label>
 
           {/* Submit */}

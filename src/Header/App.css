@@ -29,6 +29,10 @@ transition: background-color 0.3s ease, box-shadow 0.3s ease;
 .heading-top.scrolled li a{
   color: var(--accent-color)!important;
 }
+
+.heading-top.scrolled li a:hover::after{
+  background-color: var(--accent-color)!important;
+}
 .header-inner a {
   color: white;
   text-decoration: none;
@@ -114,7 +118,7 @@ transition: background-color 0.3s ease, box-shadow 0.3s ease;
     top: 55px;
     left: 0;
     width: 100%;
-    background-color: rgba(131, 81, 1, 0.681);
+    background-color: rgba(140, 88, 4, 0.867);
     padding: 1rem;
     
     

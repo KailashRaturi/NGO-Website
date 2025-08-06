@@ -9,16 +9,20 @@ const Footer = () => {
         <div className="about col-lg-4 col-md-6 col-sm-12">
           <img src={img} alt="logo" className="footer-logo" />
           <p>
-            Planet Hero Foundation | Transforming Lives since 2012.
-            We are dedicated to education, healthcare, women empowerment,
-            and environmental sustainability across India.
+            Planet Hero Foundation | Transforming Lives since 2012. We are
+            dedicated to education, healthcare, women empowerment, and
+            environmental sustainability across India.
           </p>
         </div>
 
         {/* Address */}
         <div className="address col-lg-3 col-md-6 col-sm-12 mt-5">
           <h4>Registered Office</h4>
-          <p>123 Green Way, Sector 45,<br />New Delhi, India – 110045</p>
+          <p>
+            123 Green Way, Sector 45,
+            <br />
+            New Delhi, India – 110045
+          </p>
         </div>
 
         {/* Contact Info */}
@@ -40,7 +44,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="copywrite p-auto">© 2012–2025 Planet Hero Foundation | All Rights Reserved </div>
+      <div className="copywrite p-auto">
+        © 2012–2025 Planet Hero Foundation | All Rights Reserved{" "}
+      </div>
     </footer>
   );
 };

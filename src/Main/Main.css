@@ -70,13 +70,19 @@
 
 /* Responsive Text */
 @media (max-width: 768px) {
+
   .carasoul-data {
-    font-size: 1.5rem;
-    padding: 15px 20px;
+    font-size: 1.0rem;
+    padding: 10px 15px;;
+   
   }
 
   .carousel-item img {
     max-height: 60vh;
+  }
+ .carousel-control-next-icon,
+  .carousel-control-prev-icon{
+    margin-bottom:-40px;
   }
    .carousel-item{
     margin-top: 50px;
