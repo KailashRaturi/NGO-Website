@@ -13,7 +13,7 @@ const Slider = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
 
-            <h3 className='carasoul-data'>Together, We Can Make a Difference.</h3>
+            <h3 className='carasoul-data'>tTogether, We Can Make a Difference.</h3>
           <img src={img1} className="d-block  w-100" alt="Slide 1" />
           <div className="gradient-overlay"></div>
         </div>
